@@ -1,5 +1,5 @@
 {% set name = "hpc" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Serapieum-of-alex/hpc/archive/{{ version }}.tar.gz
-  sha256: 5450b9f972d45bcd654ff93fd42d26e20b343a79e5a8f1355ce59871a98370e7
+  sha256: ab2e2a295a9c066c2b4a352937114f079d3b4edab3d709714c9f8817660a0c1f
 
 build:
   number: 0
