@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Serapieum-of-alex/hpc/archive/{{ version }}.tar.gz
-  sha256: bcd079c66e3afb10181a49e0676b9e7e59374467e67370fd89e7cfd6f27202fa
+  sha256: 95b5a0f73c5c95ef8bcc5a88cefddcae508f2ee9ade70b9fc6603de7b72b81da
 
 build:
   number: 0
