@@ -1,5 +1,5 @@
 {% set name = "hpc" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Serapieum-of-alex/hpc/archive/{{ version }}.tar.gz
-  sha256: 95b5a0f73c5c95ef8bcc5a88cefddcae508f2ee9ade70b9fc6603de7b72b81da
+  sha256: 8e30e8053a92f1d5c73d6516db0e2bc27270e770f09b51a5dacba00dd1e9c16a
 
 build:
   number: 0
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/Serapieum-of-alex/hpc
-  license:  GPL-3.0-only
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE.md
   summary: numpy utility package
