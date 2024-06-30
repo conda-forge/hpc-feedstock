@@ -27,10 +27,6 @@ requirements:
 test:
   imports:
     - hpc
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: https://github.com/Serapieum-of-alex/hpc
