@@ -1,4 +1,4 @@
-{% set python_min = '3.12' %}
+{% set python_min = '3.11' %}
 {% set name = "hpc" %}
 {% set version = "0.1.4" %}
 
