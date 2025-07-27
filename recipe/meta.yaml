@@ -1,6 +1,6 @@
-{% set python_min = '3.11' %}
+{% set python_min = "3.11" %}
 {% set name = "hpc" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/Serapieum-of-alex/hpc/archive/{{ version }}.tar.gz
-  sha256: c583d420b517d7b76516077615f0659e9a103848dc8bd03e48ba66d172ba8bb9
+  sha256: 25d4fd005cbef708db18271e62e720f742439abe489ea2fde14038a2a23e01c6
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -22,7 +22,6 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy >=2.0.0
-    - scipy >=1.13.1
 
 
 test:
@@ -33,7 +32,7 @@ test:
 
 about:
   home: https://github.com/Serapieum-of-alex/hpc
-  license:  GPL-3.0-only
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE.md
   summary: numpy utility package
